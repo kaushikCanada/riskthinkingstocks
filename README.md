@@ -12,6 +12,7 @@ The order of notebooks is first 01_stocks_modelling and then 02_train_deploy.
 main.py is the training python file. and sample-request.json file is self explanatory.
 
 Use the score.py script ( also as final cell of model_deploy notebook) to get real time predictions. I have kept the endpoint dormant for now to save cost, but can be turned up on demand. This is exactly like production where I deploy scale to zero model servers. Here is a screenshot of the experiment.
-image.png
+
+An example Prediction server url is https://stocks-endpoint-4ec4151c.canadacentral.inference.ml.azure.com/score. 
 
  As a bonus, the endpoint also provides a swagger json for the model :-).
