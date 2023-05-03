@@ -27,7 +27,7 @@ data =  {
 
 body = str.encode(json.dumps(data))
 
-url = 'https://stocks-endpoint-0422eadb.canadacentral.inference.ml.azure.com/score'
+url = 'https://stocks-endpoint-4ec4151c.canadacentral.inference.ml.azure.com/score'
 # Replace this with the primary/secondary key or AMLToken for the endpoint
 api_key = 'Dz8FaBMQ2tHiyb3JICdxSmkQvwCgu8Hb'
 if not api_key:
