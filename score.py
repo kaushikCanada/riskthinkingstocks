@@ -29,7 +29,7 @@ body = str.encode(json.dumps(data))
 
 url = 'https://stocks-endpoint-0422eadb.canadacentral.inference.ml.azure.com/score'
 # Replace this with the primary/secondary key or AMLToken for the endpoint
-api_key = 'V9Hz8RMuuiU7TS5rbeNdFnvmyUYnNCb6'
+api_key = 'Dz8FaBMQ2tHiyb3JICdxSmkQvwCgu8Hb'
 if not api_key:
     raise Exception("A key should be provided to invoke the endpoint")
 
